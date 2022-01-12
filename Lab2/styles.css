@@ -1,0 +1,39 @@
+
+body {
+    background-color: azure;
+    font-family: 'Lato', sans-serif;
+    border-width: medium;
+    color:darkslateblue;
+    padding: inherit;
+    text-align: center;
+    padding-bottom: 5%;
+    padding-top: 1%;
+}
+
+h1{
+    color:darkmagenta;
+}
+
+h2{
+    font-variant: small-caps;
+}
+adress{
+    font-style: italic;
+}
+
+a{
+    font-family:cursive;
+}
+img{
+    margin-top: 2%;
+    border-radius: 30%;
+        
+}
+
+
+ul{
+    text-align: left;
+    display: inline-block;
+    list-style-type:circle;
+        
+}
