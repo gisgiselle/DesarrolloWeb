@@ -1,0 +1,217 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+   
+}
+
+.logo > img {
+  width: 50px;
+}
+
+@media (max-width: 767px){
+   
+    .logo{
+        display: flex;
+        justify-content: center;  
+    }
+    
+    header{
+        display: flex;
+        justify-content: center;
+        flex-flow: row;
+    }
+    
+     .navbar{
+        display: flex;
+        justify-content: flex-end;
+         background-color: darkgray;
+    }
+    
+    .hamburger{
+        color: white;
+    }
+    .menu{
+        display: none;
+    }
+    
+    .product{
+        display: flex;
+         flex-flow: column;
+        border: solid;
+        border-width: 1px;
+          border-color: darkgray;
+    }
+    i {
+      display: flex;
+        align-self: center;
+    }
+    
+    h2{
+         display: flex;
+        align-self: center; 
+    }
+    
+    p{
+
+        text-align: center;
+    }
+   
+    ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
+    
+    @media (min-width: 768px) and (max-width: 1024px){
+      
+    .logo{
+        display: flex;
+        justify-content: center;
+         padding-right: 10%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+        .product{
+        display: flex;
+         flex-flow: column;
+        border: solid;
+        border-width: 1px;
+        border-color: darkgray;
+    }
+    .navbar{
+        display: flex;
+        justify-content: flex-end;
+         background-color: darkgray;
+    }
+         .hamburger{
+        color: white;
+    }
+        
+    .menu{
+        display: none;
+    }
+        .product{
+        display: flex;
+         flex-flow: column;
+    }
+    i {
+      display: flex;
+        align-self: center;
+    }
+    
+    h2{
+         display: flex;
+        align-self: center; 
+    }
+    
+    p{
+
+        text-align: center;
+    }
+   
+    ul{
+        display: flex;
+        list-style-type: none;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+}
+
+@media (min-width: 1025px) {
+     .logo{
+        display: flex;
+        justify-content: center;
+         padding-right: 10%;
+    }
+
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+    
+    .hamburger{
+        display: none;
+    }
+    
+    .navbar{
+        text-align: left;
+         background-color: darkgray;
+        
+    }
+    
+     .menu{
+         display: flex;
+         justify-content: flex-end;
+          color: white;
+         margin-left: 2%;
+    }
+    ul {
+        list-style-type: none;
+        margin-left: 1%;
+    }
+    .menu li{
+        display: inline;
+        margin-left: 1%;
+    }
+        .product{
+        display: flex;
+         flex-flow: column;
+        border: solid;
+            border-color: darkgray;
+        border-width: 1px;
+        margin-right: 1%;
+        
+    }
+  
+
+    main{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 1%;
+    }
+    
+     p{
+        text-align: center;
+    }
+    
+    footer{
+        border: solid;
+        border-width: 1px;
+          border-color: darkgray;
+    }
+    
+    .social{
+        display: flex;
+        flex-flow: row;
+        list-style-type: none;
+        justify-content: space-evenly;
+    }
+
+      h2{
+         display: flex;
+        align-self: center; 
+    }
+     i {
+         margin-top: 1%;
+      display: flex;
+        align-self: center;
+    }
+    
+    
+}
